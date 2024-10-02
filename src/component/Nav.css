@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #ffff;
+    bottom: 2px;
+    padding: 0px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.07)
+  }
+  
+  .nav-deploy{
+    background-color: grey;
+    width: Hug (78px)px;
+   height: Hug (31px)px;
+   padding: 7px 15px 7px 15px;
+   gap: 3px;
+   border-radius: 8px 0px 0px 0px;
+   opacity: 0px;
+   background: rgba(0, 0, 0, 0.3);
+   color: rgba(255, 255, 255, 1);
+  
+  }
+  
+  .nav-runbutton{
+    background-color: rgba(68, 146, 76, 1);
+    width: Fixed (78px)px;
+   height: Hug (31px)px;
+   padding: 7px 15px 7px 15px;
+   gap: 5px;
+   border-radius: 8px 0px 0px 0px;
+   opacity: 0px;
+   margin: 10px;
+   
+  
+  }
+  
+  .nav-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo-text{
+    font-weight: bold;
+  }
+  
+  .nav-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
