@@ -1,19 +1,25 @@
-import React from 'react'
-import MainContainer from './component/MainContainer'
-import SideBarContainer from './component/SideBarContainer'
-import './App.css'
-
-
+// src/App.js
+import React, { useState } from 'react';
+import './App.css';
+import Sidebar from './components/Sidebar';
+import WorkflowArea from './components/WorkflowArea';
+import Nav from './components/Nav';
 
 function App() {
+
+  const [inputData,setInputData]=useState('')  // modify
+
   return (
-    <div className='container'  >
-      <MainContainer/>
-      <div style={{width:"100%",height:"100vh"}}>
-      <SideBarContainer/>
-      </div>
+    <div>
+    <Nav/>
+    <div className="dndflow">
+      
+    
+      <Sidebar/>
+      <WorkflowArea inputData={inputData} setInputData={setInputData}/>
     </div>
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
