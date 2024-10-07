@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/-Drag-and-Drop-LLM-App/static/css/main.92f3102f.css",
-    "main.js": "/-Drag-and-Drop-LLM-App/static/js/main.35ac2105.js",
+    "main.css": "/-Drag-and-Drop-LLM-App/static/css/main.8427079c.css",
+    "main.js": "/-Drag-and-Drop-LLM-App/static/js/main.b076c083.js",
     "static/js/453.0b18b304.chunk.js": "/-Drag-and-Drop-LLM-App/static/js/453.0b18b304.chunk.js",
     "index.html": "/-Drag-and-Drop-LLM-App/index.html",
-    "main.92f3102f.css.map": "/-Drag-and-Drop-LLM-App/static/css/main.92f3102f.css.map",
-    "main.35ac2105.js.map": "/-Drag-and-Drop-LLM-App/static/js/main.35ac2105.js.map",
+    "main.8427079c.css.map": "/-Drag-and-Drop-LLM-App/static/css/main.8427079c.css.map",
+    "main.b076c083.js.map": "/-Drag-and-Drop-LLM-App/static/js/main.b076c083.js.map",
     "453.0b18b304.chunk.js.map": "/-Drag-and-Drop-LLM-App/static/js/453.0b18b304.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92f3102f.css",
-    "static/js/main.35ac2105.js"
+    "static/css/main.8427079c.css",
+    "static/js/main.b076c083.js"
   ]
 }
