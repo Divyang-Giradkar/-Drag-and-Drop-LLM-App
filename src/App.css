@@ -93,7 +93,7 @@ aside {
 
 
 .custom-node-input{
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #fff;
@@ -101,7 +101,8 @@ aside {
   text-align: left;
   margin: 0%;
   gap: 7px;
-  height: 160px;
+  height: 200px;
+  
 
 }
 
@@ -110,6 +111,7 @@ aside {
   margin: 0 !important;  /* Remove margin */
   box-sizing: border-box; /* Ensure sizing includes padding/borders */
   border: 0px !important;
+
   
 }
 
@@ -122,11 +124,19 @@ aside {
 
 .custom-node-input input{
   margin: 10px 0px;
+  height: 50px;
+
+  padding: 0;
+  width: 200px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  vertical-align: top;
+  line-height: normal;
   
 }
 
 
-.custom-node button{
+.custom-node-llm button{
   height: 20px;
   width:80px;
   border-radius: 20px;
@@ -139,5 +149,91 @@ aside {
 .custom-node-input strong{
   display: block;
   /* margin-bottom: 10px; */
+  font-size: 15px;
+}
+
+
+
+
+.custom-node-llm {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 200px;
+  text-align: left;
+  border: 1px solid #66666659;
+  gap: 5px;
+}
+
+.custom-node-llm strong {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.custom-node-llm label {
+  font-size: 1rem;
+  display: block;
+  margin: 5px 0;
+}
+
+.llm-header{
+  display: flex;
+  gap: 8px;
+  height: 20px;
+  align-items: center;
+  font-size: 15px;
+
+}
+
+.custom-node-llm input {
+  width: 170px;
+  height: 25px;
+
+}
+
+.llm-header strong{
+  position: relative;
+  top:3px;
+}
+
+
+
+.custom-node-output {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 210px;
+  text-align: left;
+  border: 1px solid #66666659;
+  gap: 5px;
+  height: 180px;
+}
+
+.custom-node-output strong {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.custom-node-output label {
+  font-size: 1rem;
+  display: block;
+  margin: 7px 0;
+}
+
+
+.custom-node-output textarea{
+  width: 200px;
+  height: 100px;
+  scrollbar-width: 10px;
   
 }
+
+/* Hides the scrollbar */
+body {
+  overflow: hidden;
+}
+

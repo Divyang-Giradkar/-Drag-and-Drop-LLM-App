@@ -4,20 +4,20 @@ import InputNode from './InputNode';
 import LLMEngineNode from './LLMEngineNode';
 import OutputNode from './OutputNode';
 
+
 const nodeTypes = {
   input: InputNode,
   llmEngine: LLMEngineNode,
   output: OutputNode,
 };
 
-const WorkflowArea = () => {
+const WorkflowArea = ({ inputData, setInputData }) => {
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
   const [reactFlowInstance, setReactFlowInstance] = useState(null);
   const [inputValue, setInputValue] = useState('');  // State for input value
   const [outputText, setOutputText] = useState('');  // State to hold output text
-
-
+ 
   // Function to update the inputValue in nodes
   const handleInputChange = (newInputValue) => {
     setInputValue(newInputValue);
@@ -95,6 +95,7 @@ const WorkflowArea = () => {
           inputValue,                          // Pass the input value to LLMEngineNode
           onOutputChange: handleOutputChange,  // Pass the output handler to LLMEngineNode
           outputText,                          // Pass the output text to OutputNode
+          
 
         },
       };
@@ -102,6 +103,8 @@ const WorkflowArea = () => {
       setNodes((nds) => nds.concat(newNode));
     },
     [reactFlowInstance, setNodes, nodes, inputValue, outputText]
+
+     
   );
 
   return (
@@ -129,5 +132,3 @@ const WorkflowArea = () => {
 };
 
 export default WorkflowArea;
-
-

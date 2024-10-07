@@ -3,13 +3,13 @@ import { Handle } from 'react-flow-renderer';
 import outputlogo from '../outputlogo.png'
 const OutputNode = ({ data }) => {
   return (
-    <div className="custom-node">
+    <div className="custom-node-output">
       <div className='input-header'> 
       <img src={outputlogo} alt='outpulogo'/>
 
       <strong style={{fontSize:'0.9rem'}}>OUTPUT</strong>
       </div>
-      <div className='floatbox-popup'>Lorem ipsum sic dolar amet   </div>
+      
       <label>Output</label>
       
       {/* Display the passed outputText in the textarea */}
