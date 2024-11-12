@@ -1,5 +1,8 @@
 # Deployment Site 
 https://divyang-giradkar.github.io/-Drag-and-Drop-LLM-App/
+- use API Key and API Baselink for acess gemini api use my or for testing you can create your own 
+API KEY -
+API BASELINK -
 ----------------------------------------------------------------------------------------------------------------
 ![Screenshot 2024-10-07 175406](https://github.com/user-attachments/assets/6d677b9e-b5e9-4ffa-addb-9737155e3041)
 
