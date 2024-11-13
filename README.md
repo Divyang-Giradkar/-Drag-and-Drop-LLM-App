@@ -1,8 +1,7 @@
 # Deployment Site 
-https://divyang-giradkar.github.io/-Drag-and-Drop-LLM-App/ <br> <br> 
-Note :- Use API Key and API Baselink for acess gemini api use my or for testing you can create your own <br><br>
-API KEY - AIzaSyC7EdJg0pY4CIwkxA-j39dH5P4XJZhx6TA <br><br>
-API BASELINK - https://generativelanguage.googleapis.com <br>
+site is live her
+https://divyang-giradkar.github.io/-Drag-and-Drop-LLM-App/ <br> 
+
 ----------------------------------------------------------------------------------------------------------------
 ![Screenshot 2024-10-07 175406](https://github.com/user-attachments/assets/6d677b9e-b5e9-4ffa-addb-9737155e3041)
 
@@ -17,4 +16,8 @@ When you open site drag all nodes from side bar first to workflow area
 https://generativelanguage.googleapis.com
 
  API Key you can get in Gemini Open API Website
+
+Note :- Use API Key and API Baselink for acess gemini api use my or for testing you can create your own <br><br>
+API KEY - AIzaSyC7EdJg0pY4CIwkxA-j39dH5P4XJZhx6TA <br><br>
+API BASELINK - https://generativelanguage.googleapis.com <br>
  
